@@ -1,16 +1,42 @@
-# hello_flutter
+# Hello Flutter - Notes App
 
-A new Flutter project.
+**Short description:** A simple cross-platform note-taking application built with Flutter, allowing users to create, edit, and delete notes easily.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Create, edit, and delete notes
+- Responsive UI using Flutter widgets
+- Lightweight and simple design
+- Data persistence using local storage (or optional Firebase integration)
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Language: Dart
+- Framework: Flutter
+- Local storage: SQLite / Shared Preferences
+- Optional backend: Firebase (for sync)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+
+1. Ensure Flutter SDK is installed.
+2. Navigate to the project folder:
+   ```bash
+   cd hello_flutter
+
+Install dependencies:
+
+flutter pub get
+
+
+Run the app:
+
+flutter run
+
+
+To build for a specific platform (e.g., Android):
+
+flutter build apk
+
+Notes
+
+Designed as a simple personal note-taking app.
